@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>yys动画</title>
+    <style>
+        span {
+            background: url("./img/1.png") no-repeat;
+            animation: kpani 4.3s steps(42) both infinite;
+
+            position: absolute;
+            width: 780px;
+            height: 557px;
+        }
+        @keyframes kpani {
+            0% {
+                background-position:0 0
+            }
+            100% {
+                background-position: 0 bottom;
+            }
+        }
+    </style>
+
+</head>
+<body>
+<div>
+    <span id="gua"></span>
+</div>
+    </body>
+</html>
